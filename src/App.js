@@ -47,7 +47,6 @@ function App() {
   }
   return (
     <div>
-      <h1>Aprendendo React</h1>
       <Banner />
       <Formulario times={times.map(time => time.nome)} aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)} />
 
