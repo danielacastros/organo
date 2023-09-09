@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+.card {
+    font-family: 'Montserrat', sans-serif;
+    height: 270px;
+    width: 262px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.100);
+    margin-bottom: 80px;
+}
+
+.card .cabecalho {
+    background-color: #F0F0F0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: -50px;
+}
+
+.card .rodape {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    
+}
+
+.card .rodape h4 {
+    color: #6278F7;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+.card .rodape h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+    line-height: 22px;
+    padding: 0 16px;
+}
